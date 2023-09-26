@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Game</title>
+</head>
+<body>
+
+    <div id="initializer">
+        <button id="startBtn" onclick="start()">Start Game</button>
+    </div>
+
+    <div id="gameDiv">
+        <div id="images">
+            <img src="brick.png" alt="" id="brick">
+        </div>
+        
+        <div>
+            <canvas id="canvas" width="500" height="500"></canvas>
+        </div>
+
+        <div id="mover">
+            <input type="range" min="0" max="430" value="215" name="position" id="position" onmousemove="update()">
+        </div>
+
+        <p id="checker"></p>
+
+        <div id="end">
+            Game Over!
+        </div>
+
+    </div>
+</body>
+</html>

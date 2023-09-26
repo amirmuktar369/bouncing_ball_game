@@ -1,0 +1,50 @@
+div {
+    text-align: center;
+}
+
+#canvas {
+    background-color: rgb(236, 243, 216);
+}
+
+#position {
+    width: 500px;
+    
+}
+
+#images {
+    display: none;
+}
+
+#gameDiv {
+    display: none;
+}
+
+#startBtn {
+    width: 100px;
+    background-color: #fff;
+    border: 3px solid rgb(36, 95, 122);
+    font-size: 18px;
+    border-radius: 3px;
+    color: rgb(36, 95, 122);
+    font-weight: 600;
+    box-shadow: 12px 8px 15px gray;
+
+    transition: background-color .7s ease-out;
+}
+
+#startBtn:hover {
+    background-color: rgb(36, 95, 122);
+    color: #fff;
+    box-shadow: 12px 8px 15px rgb(177, 176, 176);
+
+    transition: all .7s ease-in;
+}
+
+#end {
+    font-size: 50px;
+    position: fixed;
+    color: #f00;
+    bottom: 50%;
+    right: 40%;
+    display: none;
+}
